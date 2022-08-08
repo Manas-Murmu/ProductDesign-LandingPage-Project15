@@ -28,6 +28,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .list {
   list-style-type: none;
   display: flex;
@@ -218,4 +219,50 @@ body {
   margin-top: 20px;
   position: absolute;
   margin-left: 100px;
+}
+
+/* .footer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer ul {
+  display: inline-flex;
+  gap: 50px;
+  list-style: none;
+} */
+
+/* ******************************** */
+
+@media (max-width: 768px) {
+  .hero,
+  .feature-section,
+  .stats-section,
+  .featured-projects,
+  .feature-cards-items,
+  .next-project {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .next-project h1 {
+    font-size: 30px;
+  }
+  .hero-heading {
+    margin: 2% 5%;
+    padding: 20px;
+  }
+  .footer-bottom .logo {
+    width: 50px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 10px;
+  }
+  .footer-logos img {
+    margin-top: 15px;
+  }
+  .list {
+    display: none;
+  }
 }
