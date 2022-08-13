@@ -252,6 +252,13 @@ body {
   .hero-heading {
     margin: 2% 5%;
     padding: 20px;
+    text-align: center;
+  }
+  .hero-heading h1 {
+    font-size: 35px;
+  }
+  .hero-heading p {
+    font-size: 10px;
   }
   .footer-bottom .logo {
     width: 50px;
@@ -264,5 +271,8 @@ body {
   }
   .list {
     display: none;
+  }
+  .product-card {
+    padding: 0;
   }
 }
